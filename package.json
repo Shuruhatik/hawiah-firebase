@@ -1,0 +1,47 @@
+{
+  "name": "@hawiah/firebase",
+  "version": "0.1.0",
+  "description": "Firebase Firestore driver for Hawiah - cloud-based NoSQL database with real-time capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node test/example.js"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "cloud-storage",
+    "nosql",
+    "database",
+    "drivers",
+    "real-time",
+    "schema-less",
+    "hawiah"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuruhatik/hawiah-firebase.git"
+  },
+  "homepage": "https://github.com/Shuruhatik/hawiah-firebase#readme",
+  "bugs": {
+    "url": "https://github.com/Shuruhatik/hawiah-firebase/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "INSTALLATION.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "firebase": "^12.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
